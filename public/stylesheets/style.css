@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  
+}
+
+body {
+  background-color: #FEF8F5;
+  font-family: 'DM Serif Display', serif;
+}
+
+header {
+}
+
+#scene {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  z-index: -1;
+}
+
+#logo {
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.links {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link {
+    /* padding: 15px; */
+    text-align: center;
+    border-radius: 5px;
+}
+
+.btn-orange {
+    background-color: #EE4D47;
+    /* padding: 15px; */
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#btn-orange {
+  width: 170px;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 100px;
+}
+
+#container {
+  margin-left: 50px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-left: 250px;
+}
+
+#mobel {
+    display: flex;
+    position: absolute;
+    top: 940px;
+}
+
+/* MAIN */
+
+main {
+  margin-top: 800px;
+}
+
+.about {
+  width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+  margin: 300px;
+}
+
+.about h3 {
+  color: #EE4D47;
+  font-size: 24px;
+}
+
+.div-h4 {
+  font-size: 24px;
+  background: #FCDDD4;
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.about p {
+  font-size: 18px;
+}
+
+.text-about {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;  
+}
