@@ -1,7 +1,7 @@
 const config = {
     username: 'root',
     password: '',
-    database: 'nodejs',
+    database: 'trafico',
     host: 'localhost',
     dialect: 'mysql'
 }

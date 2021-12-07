@@ -6,6 +6,6 @@ var router = express.Router();
 router.get('/', indexController.showHome);
 router.get('/home', indexController.showHome);
 
-router.post('/formulario', indexController.store);
+router.post('/saveForm', indexController.saveForm);
 
 module.exports = router;
